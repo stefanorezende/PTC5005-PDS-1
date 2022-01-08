@@ -1,0 +1,17 @@
+n=0:1:30;
+f=0.5*sin(pi*n/8+pi/3);
+g=cos(pi*n/12);
+n=0:1:30;
+f=0.5*sin(pi*n/8+pi/3);
+g=cos(pi*n/12);
+figure(1)
+subplot(211)
+stem(n,f)
+grid
+xlabel('n')
+ylabel('f(n)')
+subplot(212)
+stem(n,g)
+grid
+xlabel('n')
+ylabel('g(n)')
